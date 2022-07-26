@@ -17,11 +17,7 @@ export const App: FC = () => {
         <Routes>
           <Route
             path="/boxes"
-            element={(
-              <div className="main">
-                <Box />
-              </div>
-            )}
+            element={<Box />}
           />
         </Routes>
       </section>

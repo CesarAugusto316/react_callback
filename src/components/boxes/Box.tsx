@@ -23,16 +23,18 @@ export const Box: FC = () => {
   }, [counter1, counter2]);
 
   return (
-    <div className="buttons-container">
-      <Result result={result} parent={counterParent} counters={[counter1, counter2]} />
+    <div className="counters-card">
+      <div className="counters">
+        <Result result={result} parent={counterParent} counters={[counter1, counter2]} />
 
-      <Button counter={counterParent} onClick={setCounter}>
-        Parent Button
-      </Button>
+        <Button counter={counterParent} onClick={setCounter}>
+          Parent Button
+        </Button>
 
-      <div className="child__buttons">
-        <Button counter={counter1} onClick={setCounter1}>Child One</Button>
-        <Button counter={counter2} onClick={setCounter2}>Child Two</Button>
+        <div className="child__buttons">
+          <Button counter={counter1} onClick={setCounter1}>Child One</Button>
+          <Button counter={counter2} onClick={setCounter2}>Child Two</Button>
+        </div>
       </div>
     </div>
   );

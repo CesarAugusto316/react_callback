@@ -1,7 +1,22 @@
+.counters-card {
+  width: 36rem;
+  border-radius: 1rem;
+  padding: 2.4rem;
+  background-color: var(--base-300);
+  box-shadow: 4px 4px 12px 2px var(--base-drop-shadow);
+  display: flex;
+}
+
+.counters {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+}
+
 .child__buttons {
   display: flex;
-  width: 40rem;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .result {
@@ -13,8 +28,8 @@
   margin-bottom: 1.8rem;
 }
 
-.buttons-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
+.result__count {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left: 1rem;
 }

@@ -14,15 +14,15 @@ export const Result: FC<ResultProps> = ({ result, parent, counters }) => {
     <div className="result">
       <div>
         <span>Child Counters Total:</span>
-        <span>{result}</span>
+        <span className="result__count">{result}</span>
       </div>
       <div>
         <span>Parent:</span>
-        <span>{parent}</span>
+        <span className="result__count">{parent}</span>
       </div>
       <div>
         <br />
-        <span>The most click child is:</span>
+        <span>The most clicked child button is:</span>
         <span>
           {counters[0] === counters[1]
             ? (<button className="button button--secondary" type="button">They are equal</button>)

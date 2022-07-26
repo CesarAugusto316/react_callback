@@ -21,7 +21,7 @@
   --base-100: rgb(42, 48, 60);
   --base-150: rgb(36, 41, 51);
   --base-200: rgb(31, 36, 45);
-  --base-300: rgb(23, 27, 33);
+  --base-300: rgb(26, 31, 39);
   --base-content: rgb(166, 173, 186);
   --base-drop-shadow: rgba(36, 36, 36, 0.25);
 }
@@ -95,17 +95,9 @@ a {
   padding: 6rem;
 }
 
-.main {
-  max-width: 80rem;
-}
-
 @media screen and (max-width: 600px) {
   :root {
     font-size: 57%;
-  }
-
-  .main {
-    padding: 0 2rem;
   }
 
   .section {
