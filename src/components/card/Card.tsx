@@ -32,7 +32,7 @@ export const Card: FC<Course> = ({
             <p>{users}</p>
           </div>
         </div>
-        <Button>Go to LarnU</Button>
+        <Button counter={0} onClick={() => {}}>Go to LarnU</Button>
       </div>
     </div>
   );
