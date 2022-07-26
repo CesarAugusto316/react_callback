@@ -1,5 +1,5 @@
 .counters-card {
-  width: 36rem;
+  width: 38rem;
   border-radius: 1rem;
   padding: 2.4rem;
   background-color: var(--base-300);
@@ -32,4 +32,10 @@
   font-size: 2rem;
   font-weight: 600;
   margin-left: 1rem;
+}
+
+.most-clicked {
+  display: block;
+  padding: 1rem;
+  font-weight: 600;
 }

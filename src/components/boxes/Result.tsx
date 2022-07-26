@@ -22,7 +22,7 @@ export const Result: FC<ResultProps> = ({ result, parent, counters }) => {
       </div>
       <div>
         <br />
-        <span>The most clicked child button is:</span>
+        <span className="most-clicked">The most clicked child button is</span>
         <span>
           {counters[0] === counters[1]
             ? (<button className="button button--secondary" type="button">They are equal</button>)
