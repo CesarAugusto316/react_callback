@@ -13,12 +13,8 @@ export const App: FC = () => {
       <section className="section">
         <Routes>
           <Route path="/" element={<CardsList />} />
-        </Routes>
-        <Routes>
-          <Route
-            path="/boxes"
-            element={<Box />}
-          />
+          <Route path="/boxes" element={<Box />} />
+          <Route path="/*" element={<h1>Page not Found 404</h1>} />
         </Routes>
       </section>
     </div>
